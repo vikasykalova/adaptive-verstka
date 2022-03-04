@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #3f3f3f;
+}
+
 ul,
 ol,
 il {
@@ -38,7 +42,23 @@ body {
 }
 
 body {
+  font-family: Rubik;
+  font-size: 12px;
+  color: #616161;
 }
 
 .wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto; /* прибили футер к низу*/
+}
+
+[class*="__container"] {
+  max-width: 1057px;
+  margin: 0px auto;
 }
