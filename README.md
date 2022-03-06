@@ -8,6 +8,7 @@
 ---------------------------------------------------------------------
 
 It's a landing page created with using HTML and CSS only. It's adaptive website, with burger menu on mobile phones and tablets. 
+
 I used Figma and HTML, CSS to create this website. 
 
 Hope you'll enjoy!
