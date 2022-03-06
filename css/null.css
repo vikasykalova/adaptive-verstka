@@ -58,7 +58,53 @@ body {
   flex: 1 1 auto; /* прибили футер к низу*/
 }
 
+.button {
+  display: inline-block;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #fcfdfe;
+  padding: 14px 30px;
+  border-radius: 5px;
+  background-color: #ec5863;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(240, 73, 84);
+}
+
 [class*="__container"] {
-  max-width: 1057px;
+  max-width: 1087px;
   margin: 0px auto;
+  padding: 0 15px;
+}
+
+/* PC */
+@media (max-width: 1087px) {
+  [class*="__container"] {
+    max-width: 970px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 991.98px) {
+  [class*="__container"] {
+    max-width: 750px;
+  }
+}
+
+/* Moblie */
+@media (max-width: 767.98px) {
+  [class*="__container"] {
+    max-width: none;
+  }
+}
+
+/* Mobile Small */
+@media (max-width: 479.98px) {
 }
