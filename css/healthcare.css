@@ -2,18 +2,15 @@
   padding-bottom: 30px;
   padding-top: 80px;
 }
-.healthcare__container {
-}
+
 .healthcare__block-text {
   padding-bottom: 46px;
 }
-.block-text {
-}
+
 .block-text_center {
   text-align: center;
 }
-.block-text__title {
-}
+
 .block-text__text {
   margin-bottom: 45px;
 }
@@ -32,8 +29,7 @@
   display: flex;
   /*   gap: 72px; */
 }
-.healthcare__item {
-}
+
 .item-healthcare {
   height: 100%;
   position: relative;
@@ -59,9 +55,6 @@
 }
 .item-healthcare__text {
   line-height: 138.5%;
-}
-
-.item-healthcare_1 {
 }
 
 .healthcare__column_1::before,
